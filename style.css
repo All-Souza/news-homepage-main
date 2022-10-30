@@ -1,0 +1,207 @@
+/*importações*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+
+
+
+/*aplicações iniciais */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+    box-sizing: border-box;
+
+
+} 
+
+ul {
+   display: flex;
+   list-style: none;   
+   
+}
+
+/*corpo da página */
+
+body{
+    margin: 5rem;
+   
+}
+
+/*logo e menu da página */
+.topo {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 1rem;
+  
+
+
+}
+.topo img {
+   margin-right: 10rem;
+}
+
+.link {
+   display: flex;
+   list-style: none;   
+   background-color: beige;
+   margin-left: 29rem;
+   justify-content: space-between;
+
+
+}
+
+.link {
+   margin-left: 5rem;
+}
+
+/*conteúdo da página*/
+
+.news {
+   display: flex;
+   flex-direction: column;
+   margin-right: 2.5rem;
+}
+
+.news img {
+   
+   height: 25rem;
+   width: 67.1rem;
+
+
+}
+ 
+section{
+   display: flex;
+   margin-right: 1rem;
+     
+}
+
+.card-principal {
+   display: flex;
+   height: 25rem;
+   width: 67.1rem;
+   justify-content: space-between;
+   align-items: stretch;
+   background-color: brown;
+   font-size: 2.5rem;
+   font-weight: bold;
+   padding: 3rem;
+
+}
+h1 {
+   margin-top: 2rem;
+}
+
+.leia-mais {   
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ background-color: rgb(236, 236, 217);
+ margin: 2rem 1rem 0rem 1rem;
+ font-size: 1rem; 
+ letter-spacing: .1rem;
+}
+
+h2 {
+   
+   margin: 0rem 0.1rem 3rem 1rem;
+}
+
+.leia-mais button {
+   width: 16rem;
+   height: 4.5rem;
+   font-size: 1.29rem;
+   font-weight: bold;
+   color: white;
+   background-color: rgb(134, 100, 35);
+   letter-spacing: 0.6rem;
+
+
+
+}
+
+
+/*conteúdo lateral */
+
+.barra-lateral {
+    display: flex;
+    height: 50rem;
+    width: 27rem;
+    align-items: center;   
+    text-align: left;
+    background-color:rgb(0,0,26);
+    color: white;
+}
+
+.curiosidades ul {
+   display: flex;
+   height: 40rem;
+   width: 27rem;
+   flex-wrap: wrap;
+   flex-direction: column;  
+     
+}
+
+.curiosidades ul li {
+   box-sizing: border-box;
+   font-size: 1rem;
+   margin: 1rem 2rem 1rem 2rem;
+   padding-bottom: 5.5rem;
+   border-bottom: 0.1rem solid rgb(230, 230, 231);background-color: rgb(0,0,26);
+   
+}
+
+#titulo-tres {
+   border-bottom: 0.1rem solid rgb(0,0,26);background-color: rgb(0,0,26);
+  
+}
+
+h6 {
+   margin: 1rem 1rem 0.9rem 2rem;
+   font-size: 2.9rem;
+   color: rgb(232,169,76);
+
+}
+
+h3,h4,h5 { 
+   font-size: 1.7rem;
+      
+}
+   
+p1,p2,p3 {
+   font-size: 1.2rem;
+   color
+}
+   
+/*conteúdo na parte inferior*/
+
+footer {
+ flex-direction: column;
+ 
+}
+
+#li-um {
+
+}
+#li-um img {
+   height: 15rem;
+   width: 15rem;
+
+}
+#li-dois {
+
+}
+#li-dois img {
+
+}
+#li-tres {
+
+}
+#li-tres img {
+
+}
+  
+
