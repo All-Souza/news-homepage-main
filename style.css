@@ -29,22 +29,23 @@ body{
    
 }
 
+
 /*logo e menu da página */
+
 .topo {
    display: flex;
    justify-content: space-around;
    align-items: center;
    padding: 1rem;
-  
-
 
 }
+
 .topo img {
    margin-right: 10rem;
 }
 
 .link {
-   display: flex;
+   
    list-style: none;   
    background-color: beige;
    margin-left: 29rem;
@@ -57,19 +58,18 @@ body{
    margin-left: 5rem;
 }
 
+
 /*conteúdo da página*/
 
-.news {
-   display: flex;
+.news {   
    flex-direction: column;
    margin-right: 2.5rem;
+
 }
 
-.news img {
-   
+.news img {   
    height: 25rem;
    width: 67.1rem;
-
 
 }
  
@@ -91,26 +91,27 @@ section{
    padding: 3rem;
 
 }
+
 h1 {
    margin-top: 2rem;
+
 }
 
-.leia-mais {   
- display: flex;
- flex-direction: column;
- justify-content: space-between;
+.leia-mais {  
  background-color: rgb(236, 236, 217);
  margin: 2rem 1rem 0rem 1rem;
  font-size: 1rem; 
  letter-spacing: .1rem;
+
 }
 
-h2 {
-   
+h2 {   
    margin: 0rem 0.1rem 3rem 1rem;
+
 }
 
 .leia-mais button {
+   margin-top: 2.3rem;
    width: 16rem;
    height: 4.5rem;
    font-size: 1.29rem;
@@ -118,8 +119,6 @@ h2 {
    color: white;
    background-color: rgb(134, 100, 35);
    letter-spacing: 0.6rem;
-
-
 
 }
 
@@ -174,34 +173,78 @@ h3,h4,h5 {
 p1,p2,p3 {
    font-size: 1.2rem;
    color
-}
-   
+} 
+
+
 /*conteúdo na parte inferior*/
-
-footer {
- flex-direction: column;
- 
-}
-
-#li-um {
-
-}
-#li-um img {
-   height: 15rem;
-   width: 15rem;
-
-}
-#li-dois {
-
-}
-#li-dois img {
-
-}
-#li-tres {
-
-}
-#li-tres img {
-
-}
   
+footer {
+   display: flex;
+   width: 99rem;
+   margin: 1rem;
 
+}
+
+
+
+.f-um {
+      display: flex;
+      height: 12rem;
+      align-items: flex-end;
+
+   }
+
+.f-um img {
+      height: 11rem;
+      width: 9rem;
+
+   }
+
+.f-um nav {
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 1rem;
+   
+}  
+
+
+.f-dois {
+      display: flex;
+      height: 12rem;
+      align-items: flex-end;
+
+   }
+
+.f-dois img {
+      height: 11rem;
+      width: 9rem;
+
+   }
+
+.f-dois nav {
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 1rem;
+
+}
+
+
+.f-tres {
+      display: flex;
+      height: 12rem;
+      align-items: flex-end;
+
+   }
+
+.f-tres img {
+      height: 11rem;
+      width: 9rem;
+
+   }
+
+.f-tres nav {
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 1rem;
+
+}
